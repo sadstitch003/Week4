@@ -43,9 +43,9 @@ namespace WindowsFormsApp7
                     else
                     {
                         dataDiri.Rows.Add(TxtBoxNama.Text, TxtBoxAlamat.Text, TxtBoxTelp.Text);
-                        TxtBoxNama.Text = null;
-                        TxtBoxAlamat.Text = null;
-                        TxtBoxTelp.Text = null;
+                        TxtBoxNama.Text = "";
+                        TxtBoxAlamat.Text = "";
+                        TxtBoxTelp.Text = "";
                     }
                 }
             }
