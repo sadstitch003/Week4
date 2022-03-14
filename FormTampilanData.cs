@@ -21,15 +21,13 @@ namespace WindowsFormsApp7
             dataDiri = table;
         }
 
-        private void FormTampilanData_Load(object sender, EventArgs e)
-        {
-            rowNum = dataDiri.Rows.Count;
-            if (rowNum != 0) 
+        private void FormTampilanData_Load(object sender, EventArgs e) 
+        {;
+            if (dataDiri.Rows.Count > 0)
             {
-                rowNum = 0;
-                TxtBoxNama.Text = dataDiri.Rows[rowNum].ItemArray[0].ToString();
-                TxtBoxAlamat.Text = dataDiri.Rows[rowNum].ItemArray[1].ToString();
-                TxtBoxTelp.Text = dataDiri.Rows[rowNum].ItemArray[2].ToString();
+                TxtBoxNama.Text = dataDiri.Rows[0].ItemArray[0].ToString();
+                TxtBoxAlamat.Text = dataDiri.Rows[0].ItemArray[1].ToString();
+                TxtBoxTelp.Text = dataDiri.Rows[0].ItemArray[2].ToString();
             }
         }
                     
