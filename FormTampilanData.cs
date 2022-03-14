@@ -19,10 +19,12 @@ namespace WindowsFormsApp7
         {
             InitializeComponent();
             dataDiri = table;
+            
         }
 
         private void FormTampilanData_Load(object sender, EventArgs e) 
-        {;
+        {
+            rowNum = 0;
             if (dataDiri.Rows.Count > 0)
             {
                 TxtBoxNama.Text = dataDiri.Rows[0].ItemArray[0].ToString();
