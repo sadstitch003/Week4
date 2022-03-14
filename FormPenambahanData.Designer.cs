@@ -137,6 +137,6 @@
         private System.Windows.Forms.TextBox TxtBoxTelp;
         private System.Windows.Forms.Button BtnSimpan;
         private System.Windows.Forms.Button BtnLihatData;
-    }
+    } 
 }
 

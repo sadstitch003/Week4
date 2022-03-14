@@ -28,7 +28,7 @@ namespace WindowsFormsApp7
             {
                 if (TxtBoxNama.Text == "" || TxtBoxAlamat.Text == "" || TxtBoxTelp.Text == "")
                 {
-                    MessageBox.Show("Ada Data Yang Kosong !");
+                    MessageBox.Show("Ada Data Yang Kosong !"); 
                 }
                 else
                 {
